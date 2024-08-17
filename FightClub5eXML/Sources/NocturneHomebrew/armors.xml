@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<compendium version="5">
+    <!-- Armors -->
+    <item>
+        <name>Advanced Bodysuit Prototype VER. LVI (Damaged)</name>
+        <detail>Rare</detail>
+        <value>1500</value>
+        <weight>5</weight>
+        <ac>17</ac>
+        <text>Protective Mechanical Bodysuit: Lightweight with industry standard tensile strength</text>
+        <text>Properties (Undamaged): Tensile Strength: 4189 MPa. Toughness: 450 kJ/m². Compressive Strength: 3200 MPa. Energy Absorption: 30 J/g AC: 19</text>
+        <text>Status: Damaged</text>
+        <text>Current Properties (Damaged): Tensile Strength: 2561 MPa. Toughness: 244 kJ/m². Compressive Strength: 1642 MPa. Energy Absorption: 12 J/g.</text>
+        <text>Manufacturer: The Paxius Advanced Military Metallurgy Department (c)</text>
+        <stealth>0</stealth>
+        <text></text>
+        <text>A shattered relic found in an abandoned lab, the ABS Prototype is a technological milestone in materials science. The early design of the ABS was created in war efforts to push the Paxius Empire's military through the Celestirium Empire's border.</text>
+    </item>
+</compendium>

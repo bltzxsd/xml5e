@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<compendium version="5">
+    <!-- Cantrips -->
+    <spell>
+        <name>Cut</name>
+        <level>0</level>
+        <school>EV</school>
+        <classes>Wizard (Evocation), Warlock</classes>
+        <time>1 action</time>
+        <range>30ft</range>
+        <components>V, S</components>
+        <duration>Instantaneous</duration>
+        <text>You choose two visible points in space no more than 10 ft. apart. You make a ranged spell attack against any creature that moves through the line created by these points. On a hit, the target takes 1d6 force damage. The damage increases by one die when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</text>
+        <roll>1d6</roll>
+        <roll>2d6</roll>
+        <roll>3d6</roll>
+        <roll>4d6</roll>
+        <text>Source: Nocturne</text>
+    </spell>
+
+
+    <!-- 3rd Level Spells -->
+    <spell>
+        <name>Projectile Shield</name>
+        <level>3</level>
+        <school>Wizard (Abjuration), Sorcerer, Cleric, Ranger</school>
+        <classes>Any</classes>
+        <time>1 reaction</time>
+        <range>Self</range>
+        <components>S</components>
+        <duration>2 rounds</duration>
+        <text>When targeted by a ranged attack, create an arcane barrier that grants resistance to damage from ranged attacks. As part of the reaction, you can reduce the damage by 3d6.</text>
+        <text>At Higher Levels: When cast using a spell slot of 4th level or higher, the damage reduction increases by 1d6 for each slot level above 3rd.</text>
+        <text>Source: Nocturne</text>
+        <roll>3d6</roll>
+    </spell>
+</compendium>

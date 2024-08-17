@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+    <!-- Items -->
+
+    <item>
+        <name>Luminar Credit</name>
+        <type>$</type>
+        <weight>0.0</weight>
+        <value>100</value>
+        <detail>common</detail>
+        <text> The official currency for exchange of goods in Nocturne</text>
+    </item>
+
+
+    <!-- Firearms -->
+    <item>
+        <name>Pistol</name>
+        <type>R</type>
+        <weight>2</weight>
+        <text>Conceal: A weapon with this property can be concealed with a Sleight of Hand check.</text>
+        <text>Magazine: 7 Ammunition per Magazine</text>
+        <text>Reload: Movement Action</text>
+        <text>Ranged: 10/50/150 ft.</text>
+        <text>Versatile: Wielding this weapon with two hands grants +1 on your attack rolls.</text>
+        <dmg1>2d6</dmg1>
+        <dmgType>P</dmgType>
+        <property>R,V</property>
+        <range>50/150</range>
+    </item>
+
+    <item>
+        <name>Submachine Gun</name>
+        <type>R</type>
+        <weight>4</weight>
+        <text>Burst 3: Consumes 3 ammunition and shoots a burst of bullets. Add +3d4 to your damage.</text>
+        <text>Conceal: A weapon with this property can be concealed with a Sleight of Hand check.</text>
+        <text>Magazine: 12 Ammunition per Magazine + Extend 5</text>
+        <text>Reload: Action</text>
+        <text>Ranged: 10/60/150 ft.</text>
+        <text>Versatile: Wielding this weapon with two hands grants +1 on your attack rolls.</text>
+        <dmg1>2d6</dmg1>
+        <dmgType>P</dmgType>
+        <property>R,V</property>
+        <range>60/150</range>
+    </item>
+
+    <item>
+        <name>Revolver</name>
+        <type>R</type>
+        <weight>3</weight>
+        <text>Burst 6: Consumes 6 ammunition and shoots a burst of bullets. Add +6d4 to your damage.</text>
+        <text>Magazine: 6 Ammunition per cylinder</text>
+        <text>Reload: Action</text>
+        <text>Ranged: 15/35/150 ft.</text>
+        <text>Versatile: Wielding this weapon with two hands grants +1 on your attack rolls.</text>
+        <dmg1>2d8</dmg1>
+        <dmgType>P</dmgType>
+        <property>R,V</property>
+        <range>35/150</range>
+    </item>
+
+    <item>
+        <name>Assault Rifle</name>
+        <type>R</type>
+        <weight>8</weight>
+        <text>Burst 4: Consumes 2 ammunition and shoots a burst of bullets. Add +3d4 to your damage.</text>
+        <text>Magazine: 15 Ammunition per Magazine + Extend 5</text>
+        <text>Reload: Action</text>
+        <text>Ranged: 30/120/240 ft.</text>
+        <text>Two-Handed: This weapon requires two hands when you attack with it.</text>
+        <dmg1>2d10</dmg1>
+        <dmgType>P</dmgType>
+        <property>R,2H</property>
+        <range>120/240</range>
+    </item>
+
+    <item>
+        <name>Sniper Rifle</name>
+        <type>R</type>
+        <weight>12</weight>
+        <text>Focus 3: Requires concentration to shoot. Grants +3 to Hit.</text>
+        <text>Heavy: This weapon is heavy and requires a STR 13 (unmounted) or STR 8 (mounted) to use effectively.</text>
+        <text>Magazine: 3 Ammunition per Magazine + Extend 2</text>
+        <text>Reload: Action</text>
+        <text>Ranged: 50/1000/2000 ft.</text>
+        <dmg1>4d12</dmg1>
+        <dmgType>P</dmgType>
+        <property>R,H</property>
+        <range>1000/2000</range>
+    </item>
+
+    <item>
+        <name>Shotgun</name>
+        <type>R</type>
+        <weight>7</weight>
+        <text>Magazine: 4 Ammunition per Magazine + Extend 2</text>
+        <text>Reload: Action</text>
+        <text>Ranged: 10/10 ft.</text>
+        <text>Spread Cone 10ft: Spreads damage in a cone shape for 10 feet. Damage is rolled once and applied to all enemies within the area.</text>
+        <text>Versatile: Wielding this weapon with two hands grants +1 on your attack rolls.</text>
+        <dmg1>2d8</dmg1>
+        <dmgType>P</dmgType>
+        <property>R,V</property>
+        <range>10/10</range>
+    </item>
+
+    <item>
+        <name>Light Machine Gun</name>
+        <type>R</type>
+        <weight>15</weight>
+        <text>Burst: Consumes X ammunition and shoots a burst of bullets. Add +Xd4 to your damage.</text>
+        <text>Heavy: This weapon is heavy and requires a STR 18 (unmounted) or STR 14 (mounted) to use effectively.</text>
+        <text>Magazine: 100 Ammunition</text>
+        <text>Reload: Action</text>
+        <text>Ranged: 30/90/270 ft.</text>
+        <text>Two-Handed: This weapon requires two hands when you attack with it.</text>
+        <dmg1>3d12</dmg1>
+        <dmgType>P</dmgType>
+        <property>R,2H,H</property>
+        <range>90/270</range>
+    </item>
+
+    <!-- Containers -->
+    <item>
+        <name>Pistol Magazine</name>
+        <detail>common</detail>
+        <type>G</type>
+        <weight>0.1</weight>
+        <value>100</value>
+        <property></property>
+        <text>Capacity: 7 Ammunition per Magazine</text>
+    </item>
+
+    <item>
+        <name>Submachine Gun Magazine</name>
+        <detail>common</detail>
+        <type>G</type>
+        <weight>0.3</weight>
+        <value>130</value>
+        <property></property>
+        <text>Capacity: 12 Ammunition per Magazine</text>
+    </item>
+
+    <item>
+        <name>Submachine Gun Extended Magazine</name>
+        <detail>uncommon</detail>
+        <type>G</type>
+        <weight>0.35</weight>
+        <value>200</value>
+        <property></property>
+        <text>Capacity: 17 Ammunition per Magazine</text>
+        <text>Extend: +5</text>
+    </item>
+
+    <item>
+        <name>Revolver Cylinder</name>
+        <detail>common</detail>
+        <type>G</type>
+        <weight>0.2</weight>
+        <value>160</value>
+        <property></property>
+        <text>Capacity: 6 Ammunition per Cylinder</text>
+    </item>
+
+    <item>
+        <name>Assault Rifle Magazine</name>
+        <detail>common</detail>
+        <type>G</type>
+        <weight>0.5</weight>
+        <value>300</value>
+        <property></property>
+        <text>Capacity: 15 Ammunition per Magazine</text>
+    </item>
+
+    <item>
+        <name>Assault Rifle Extended Magazine</name>
+        <detail>uncommon</detail>
+        <type>G</type>
+        <weight>0.55</weight>
+        <value>500</value>
+        <property></property>
+        <text>Capacity: 20 Ammunition per Magazine</text>
+        <text>Extend: +5</text>
+    </item>
+
+    <item>
+        <name>Sniper Rifle Magazine</name>
+        <detail>common</detail>
+        <type>G</type>
+        <weight>0.8</weight>
+        <value>500</value>
+        <property></property>
+        <text>Capacity: 3 Ammunition per Magazine</text>
+    </item>
+
+    <item>
+        <name>Sniper Rifle Extended Magazine</name>
+        <detail>uncommon</detail>
+        <type>G</type>
+        <weight>0.85</weight>
+        <value>700</value>
+        <property></property>
+        <text>Capacity: 5 Ammunition per Magazine</text>
+        <text>Extend: +2</text>
+    </item>
+
+    <item>
+        <name>Shotgun Shell Magazine</name>
+        <detail>common</detail>
+        <type>G</type>
+        <weight>0.6</weight>
+        <value>200</value>
+        <property></property>
+        <text>Capacity: 4 Ammunition per Magazine</text>
+    </item>
+
+    <item>
+        <name>Shotgun Shell Extended Magazine</name>
+        <detail>uncommon</detail>
+        <type>G</type>
+        <weight>0.65</weight>
+        <value>300</value>
+        <property></property>
+        <text>Capacity: 6 Ammunition per Magazine</text>
+        <text>Extend: +2</text>
+    </item>
+
+    <item>
+        <name>Light Machine Gun Belt</name>
+        <detail>very rare</detail>
+        <type>G</type>
+        <weight>1.5</weight>
+        <value>8000</value>
+        <property></property>
+        <text>Capacity: 100 Ammunition</text>
+    </item>
+
+    <!-- Ammunition -->
+    <!-- DONE PISTOL AUTO, AR AUTO -->
+
+    <item>
+        <name>Pistol Auto-Target(TM) Ammunition</name>
+        <detail>uncommon</detail>
+        <type>A</type>
+        <value>5</value>
+        <magic>1</magic>
+        <text>Advanced Homing Bullets. Requires a Smart Pistol(TM) to use.</text>
+        <text>Grants +1 to attack rolls.</text>
+        <modifier>weapon attack +1</modifier>
+    </item>
+
+    <item>
+        <name>AR Auto-Target(TM) Ammunition</name>
+        <detail>rare</detail>
+        <type>A</type>
+        <value>10</value>
+        <magic>1</magic>
+        <text>Advanced Homing Bullets. Requires a Smart Assault Rifle(TM) to use.</text>
+        <text>Grants +1 to attack rolls.</text>
+        <modifier>weapon attack +1</modifier>
+    </item>
+
+    <item>
+        <name>SMG Auto-Target(TM) Ammunition</name>
+        <detail>uncommon</detail>
+        <type>A</type>
+        <value>15</value>
+        <magic>1</magic>
+        <text>Advanced Homing Bullets. Requires a Smart Semiautomatic Machine Gun(TM) to use.</text>
+        <text>Grants +1 to attack rolls.</text>
+        <modifier>weapon attack +1</modifier>
+    </item>
+
+    <!-- TODO LMG, PISTOL, REVOLVER, SMG, SNIPER -->
+
+    <item>
+        <name>AR Ammunition</name>
+        <detail>common</detail>
+        <type>A</type>
+        <value>5</value>
+        <weight>0.008</weight>
+        <text>Standard Hegemony issued AR ammunition.</text>
+        <text>Ammunition Specifications: 5.56mm (62gr)</text>
+        <text>Can only be bought in a pack of 10.</text>
+    </item>
+
+    <item>
+        <name>Pistol Ammunition</name>
+        <type>A</type>
+        <value>0.25</value>
+        <weight>0.02</weight>
+        <text>Standard Hegemoney issued Pistol ammunition.</text>
+        <text>Ammunition Specifications: 9mm ()</text>
+        <text>Can only be bought in a pack of 50 rounds.</text>
+    </item>
+    
+    
+    <!-- Races -->
+    <!-- Classes -->
+    <!-- Feats -->
+    <!-- Backgrounds -->
+    <!-- Spells -->
+    <!-- Monsters -->
+</compendium>
